@@ -1,0 +1,10 @@
+[project]
+name = "claudio-coda"
+version = "0.0.3"
+description = "AI coding assistant"
+
+dependencies = [
+    "pyinstaller",
+    "ollama",
+    "textual"
+]

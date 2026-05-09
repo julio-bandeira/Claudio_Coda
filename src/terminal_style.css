@@ -1,0 +1,122 @@
+Screen {
+    layout: vertical;
+    background: red 0%;
+}
+
+/* Banner Style */
+
+.banner-panel {
+    layout: horizontal;
+    width: 100%;
+    height: 16;
+    border: round red;
+}
+
+#logo {
+    border-right: solid red;
+    width: 30;
+    height: 100%;
+    align: left top;
+}
+
+#info {
+    layout: vertical;
+    width: 100%;
+    height: 100%;
+    align: center top;
+    text-align: center;
+    margin: 0 1;
+}
+
+.info_title {
+    color: red;
+}
+
+.info_separator {
+    width: 100%;
+    border-bottom: solid red;
+}
+
+/* Chat Style */
+
+.chat-panel {
+    layout: vertical;
+    width: 100%;
+    height: 1fr;
+    border: hidden;
+}
+
+.chat_item {
+    width: 100%;
+    height: auto;
+}
+
+.role-user {
+    align: right top;
+}
+
+.role-assistant {
+    align: left top;
+}
+
+/* Input Style */
+
+.input-panel {
+    layout: vertical;
+    width: 100%;
+    height: auto;
+}
+
+.terminal-input {
+    layout: horizontal;
+    border: round red;
+    height: auto;
+    max-height: 10;
+}
+
+#thinking {
+    border: hidden;
+    height: auto;
+    color: red;
+}
+
+#input-mark {
+    width: auto;
+    height: auto;
+    border: hidden;
+    margin: 0;
+    padding: 0;
+    margin-left: 1;
+}
+
+#input-in {
+    width: 1fr;
+    height: auto;
+    background: red 0%;
+    border: hidden;
+    margin: 0;
+    padding: 0;
+    margin-left: 1;
+}
+
+/* Organizar ------------------------------- */ 
+
+.chat_container {
+    max-width: 70%;
+    height: auto;
+    border: round red;
+}
+
+.chat_container_header {
+    width: 100%;
+    padding: 0 2;
+    color: red;
+    text-style: bold;
+    border-bottom: solid red;
+}
+
+.chat_container_content {
+    width: 100%;
+    padding: 0 2;
+    text-wrap: wrap;
+}
